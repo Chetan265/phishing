@@ -18,34 +18,63 @@ score on the test data. You have to use one or more of the classification algori
 
 ### Dataset Description:
 ● UsingIP (categorical - signed numeric) : { -1,1 }
+
 ● LongURL (categorical - signed numeric) : { 1,0,-1 }
+
 ● ShortURL (categorical - signed numeric) : { 1,-1 }
+
 ● Symbol@ (categorical - signed numeric) : { 1,-1 }
+
 ● Redirecting// (categorical - signed numeric) : { -1,1 }
+
 ● PrefixSuffix- (categorical - signed numeric) : { -1,1 }
+
 ● SubDomains (categorical - signed numeric) : { -1,0,1 }
+
 ● HTTPS (categorical - signed numeric) : { -1,1,0 }
+
 ● DomainRegLen (categorical - signed numeric) : { -1,1 }
+
 ● Favicon (categorical - signed numeric) : { 1,-1 }
+
 ● NonStdPort (categorical - signed numeric) : { 1,-1 }
+
 ● HTTPSDomainURL (categorical - signed numeric) : { -1,1 }
+
 ● RequestURL (categorical - signed numeric) : { 1,-1 }
+
 ● AnchorURL (categorical - signed numeric) : { -1,0,1 }● LinksInScriptTags (categorical - signed numeric) : { 1,-1,0 }
+
 ● ServerFormHandler (categorical - signed numeric) : { -1,1,0 }
+
 ● InfoEmail (categorical - signed numeric) : { -1,1 }
+
 ● AbnormalURL (categorical - signed numeric) : { -1,1 }
+
 ● WebsiteForwarding (categorical - signed numeric) : { 0,1 }
+
 ● StatusBarCust (categorical - signed numeric) : { 1,-1 }
+
 ● DisableRightClick (categorical - signed numeric) : { 1,-1 }
+
 ● UsingPopupWindow (categorical - signed numeric) : { 1,-1 }
+
 ● IframeRedirection (categorical - signed numeric) : { 1,-1 }
+
 ● AgeOfDomain (categorical - signed numeric) : { -1,1 }
+
 ● DNSRecording (categorical - signed numeric) : { -1,1 }
+
 ● WebsiteTraffic (categorical - signed numeric) : { -1,0,1 }
+
 ● PageRank (categorical - signed numeric) : { -1,1 }
+
 ● GoogleIndex (categorical - signed numeric) : { 1,-1 }
+
 ● LinksPointingToPage (categorical - signed numeric) : { 1,0,-1 }
+
 ● StatsReport (categorical - signed numeric) : { -1,1 }
+
 ● class (categorical - signed numeric) : { -1,1 }
 
 Dataset Size : 11055 rows x 31 columns
