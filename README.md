@@ -39,7 +39,9 @@ The dataset also serves as an input for project scoping and tries to specify the
 
 ● RequestURL (categorical - signed numeric) : { 1,-1 }
 
-● AnchorURL (categorical - signed numeric) : { -1,0,1 }● LinksInScriptTags (categorical - signed numeric) : { 1,-1,0 }
+● AnchorURL (categorical - signed numeric) : { -1,0,1 }
+
+● LinksInScriptTags (categorical - signed numeric) : { 1,-1,0 }
 
 ● ServerFormHandler (categorical - signed numeric) : { -1,1,0 }
 
